@@ -1,0 +1,87 @@
+@charset "EUC-KR";
+import url('https://cdn.rawgit.com/singihae/Webfonts/master/style.css');
+html, body {
+	font-family : '배달의민족 주아';
+	margin:0;
+	padding:0;
+	height:100%;
+	overflow:hidden;
+}
+
+nav.menu {
+	font-family : '배달의민족 주아';
+	position:relative;
+    width: 100%;
+    min-width:600px;
+    height:50px;
+    margin: 0;
+    color:rgb(26,26,26);
+    background-color: rgb(77,99,111);
+}
+
+div.logo{
+	font:15px;
+	font-weight:bold;
+	float:left;
+    width: 190px;
+    height:50px;
+    line-height:50px;
+    margin: 0;
+}
+
+div.logo p{
+	margin-top:0px;
+	margin-bottom:0px;
+	text-align:center;
+	background-color: rgb(58,75,83);
+}
+
+nav.menu ul.left{
+	width:250px;
+    list-style-type: none;
+    padding:0;
+    height:100%;
+    margin:0;
+	float:left;
+	text-align:left;
+}
+nav.menu ul.right{
+	line-height:50px;
+	position:absolute;
+	right:10px;
+	width:250px;
+    list-style-type: none;
+    padding:0;
+    height:100%;
+    margin:0;
+	float:right;
+	text-align:right;
+}
+
+nav.menu ul.right a{
+	text-decoration:none;
+	color:rgb(26,26,26);
+	padding-right:10px;
+}
+
+form.search{
+	width:400px;
+	height:50px;
+	line-height:50px;
+	margin-left:15px;
+}
+
+input.input {
+	width:300px;
+}
+input.search {
+	width: 50px;
+	padding:5px 15px; 
+    background:lightGrey; 
+    border:0px;
+    cursor:pointer;
+   	-webkit-border-radius: 5px;
+    border-radius: 5px; 
+	margin-left:15px;
+	font-family : '배달의민족 주아';
+}

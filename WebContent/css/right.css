@@ -1,0 +1,44 @@
+@charset "EUC-KR";
+import url('https://cdn.rawgit.com/singihae/Webfonts/master/style.css');
+table.friends {
+	position:relative;
+	float:right;
+	width:210px;
+}
+
+table.friends div.box {
+	font-family : '배달의민족 주아';
+	margin:10px;
+	border:1px solid lightgray;
+	position:relative;
+	height:40px;
+	padding:10px;
+	border-radius:3px;
+	box-shadow: 0px 2px 7px lightgrey;
+	background-color:white;
+}
+
+table.friends div.box div.img{
+	position:relative;
+	float:left;
+	width:40px;
+	height:40px;
+	border-radius: 50px 50px 50px 50px;
+	border:1px solid lightgray;
+}
+
+
+table.friends div.box div.name {
+	font-family : '배달의민족 주아';
+	position:relative;
+	float:right;
+	width:110px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+}
+table.friends div.tableName {
+	font-family : '배달의민족 주아';
+	text-align:center;
+	line-height:40px;
+}

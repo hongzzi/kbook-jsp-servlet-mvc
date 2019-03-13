@@ -1,0 +1,99 @@
+@charset "EUC-KR";
+import url('https://cdn.rawgit.com/singihae/Webfonts/master/style.css');
+
+.profile{
+	position:relative;
+	font-family : '배달의민족 주아';
+    float: left;
+    width: 220px;
+    height:100%;
+    margin-bottom: 20px;
+    border:1px solid LightGray;
+    border-radius:3px;
+	box-shadow: 0px 2px 7px lightgrey;
+    display:inline;
+    color:rgb(26,26,26);
+}
+div.profile ul li.myProfile {
+	text-align:center;
+}
+div.profile ul li.profileIMG{
+	position:relative;
+	width:100%;
+	width:100px;
+	height:100px;
+	margin:auto;
+	border-radius:50px 50px 50px 50px;
+	border:1px solid lightGray;
+	padding:0;
+}
+div.category {
+	position:positive;
+	font-family : '배달의민족 주아';
+    float: left;
+    width: 220px;
+    height:100%;
+    top:220px;
+    margin: 0;
+    display:inline;
+    color:rgb(26,26,26);
+	border:1px solid LightGray;
+    border-radius:3px;
+	box-shadow: 0px 2px 7px lightgrey;
+	background-color:white;
+}
+div.profile ul {
+    list-style-type: none;
+    padding:0;
+    line-height:30px;
+}
+
+div.profile li{
+	padding-left:20px;
+	padding-right:20px;
+	text-align:left;
+}
+div.category ul {
+    list-style-type: none;
+    padding:0;
+    line-height:40px;
+}
+
+div.category li{
+	padding-left:20px;
+	padding-right:20px;
+	text-align:left;
+}
+div.category li.grey:hover {
+	background-color: rgb(231,231,231);
+	cursor:pointer;
+}
+
+li.grey a{
+	text-decoration:none;
+	color:Black;
+	font-family : '배달의민족 주아';
+}
+#wrap{
+	width:192px;
+	margin-right:10px;
+}
+li.email img{
+	margin-right:10px;
+	margin-top:auto;
+	margin-bottom:auto;
+	text-align: center;
+	position:relative;
+	top:4px;
+}
+li.pencil img{
+	margin-right:10px;
+	text-align: center;
+	margin-top:auto;
+	margin-bottom:auto;
+	position:relative;
+	top:4px;
+}
+li.line hr{
+	background-color:LightGray;
+}
